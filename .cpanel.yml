@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pielusaf/public_html/boda
+    - /bin/cp -R * $DEPLOYPATH
