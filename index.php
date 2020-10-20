@@ -52,10 +52,10 @@
 
                                 <ul id="menu-main" class="nav-menu float-xl-right text-lg-center link-padding-tb-35px dropdown-light">
                                     <li><a href="#">Inicio</a></li>
-                                    <li><a href="#love_story">Historia vaca</a></li>
-                                    <li><a href="#event">Evento vaca</a></li>
-                                    <li><a href="#gallery">Fotitos vaca</a></li>
-                                    <li><a href="#friends">Best Vacas</a></li>
+                                    <li><a href="#love_story">Historia</a></li>
+                                    <li><a href="#event">Evento</a></li>
+                                    <li><a href="#gallery">Galería</a></li>
+                                    <li><a href="#friends">Momentos</a></li>
                                 </ul>
 
                             </div>
@@ -284,10 +284,12 @@
             <div class="wedding-date layout-1 light">
                 <h2 class="date">25/DIC/2020</h2>
                 <div class="dis"><br>Puerto Vallarta, Jalisco</div>
-                <iframe width="600" height="450" 
-                    frameborder="0" style="border:0" 
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJdWSa3XxPIYQR1GcQsBSMsxs&key=AIzaSyCT7IwmHcpkNahT3hvC4khbSG9C3QPHWFI"
-                    allowfullscreen></iframe> 
+                <div class="map-responsive">
+                    <iframe width="600" height="450" 
+                        frameborder="0" style="border:0" 
+                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJdWSa3XxPIYQR1GcQsBSMsxs&key=AIzaSyCT7IwmHcpkNahT3hvC4khbSG9C3QPHWFI"
+                        allowfullscreen></iframe>
+                </div> 
             </div>
         </div>
         <div class="bottom-effect-ba-2"></div>
@@ -367,9 +369,6 @@
         </div>
     </section>
     <!-- ============ END Our Gallery ============ -->
-
-
-
 
     <!-- ============ Best Friends ============ -->
     <section id="friends" class="padding-tb-100px section-ba-3">
@@ -479,28 +478,39 @@
 
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-
-                    <form class="nile-content cart dark invitation">
+                    <form id="form-guest" 
+                        class="nile-content cart dark invitation" 
+                        action="request-invitation.php" method="post">
                         <div class="icon padding-top-200px"><img src="assets/icons/love-letter.svg" alt=""></div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <input type="text" id="inputName44" placeholder="Nombre completo*">
+                                <label class="required">Nombre completo</label>
+                                <input type="text" id="fullName" placeholder="Nombre completo">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" id="input-phone" placeholder="Teléfono*">
+                                <label class="required">Teléfono</label>
+                                <input type="text" id="phone" placeholder="Móvil o fijo">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" id="inputPersonal4" placeholder="Número de invitados*">
+                                <label>Correo electrónico</label>
+                                <input type="email" id="email" placeholder="algo@ejemplo.com">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" id="inputEmail44" placeholder="Correo electrónico">
+                                <label class="required">Número de invitados</label>
+                                <input type="text" id="guestNumber" placeholder="1, 3, 5, etc.">
                             </div>
                         </div>
-                        <div class="form-group">
-                            <textarea id="exampleFormControlTextarea11" placeholder="Comentarios o indicaciones especiales" rows="3"></textarea>
+                        <div class="form-group col-md-12">
+                            <label>Comentarios</label>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea id="comments" class="form-control"
+                                placeholder="Alergias, restricciones de alimentos, consideraciones especiales, etc." 
+                                rows="3" maxlength="500"></textarea>
                         </div>
                         <div class="text-center">
-                            <a href="#" class="nile-bottom sm">R.S.V.P</a>
+                            <!--<a href="#" class="nile-bottom sm">Enviar</a>-->
+                            <button id="btn-request-invitation" type="button" class="nile-bottom sm">Enviar</button>
                         </div>
                     </form>
 
@@ -529,13 +539,7 @@
                         </div>
                         <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in interdum neque, vitae hendrerit sem. Etiam at neque pellentesque, lobortis quam sed, facilisis metus.
                         </div>
-                        <!--  Social -->
-                        <ul class="social-media">
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <!-- // Social -->
+
                         <div class="clearfix"></div>
                         <div class="copyright">
                             Hecho con 💕  por Aarón Ramírez y Merce Celedón.
@@ -558,7 +562,6 @@
     <script src="assets/rslider/js/extensions/revolution.extension.carousel.min.js"></script>
     <script src="assets/rslider/js/extensions/revolution.extension.kenburn.min.js"></script>
     <script src="assets/rslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="assets/rslider/js/extensions/revolution.extension.migration.min.js"></script>
     <script src="assets/rslider/js/extensions/revolution.extension.navigation.min.js"></script>
     <script src="assets/rslider/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="assets/rslider/js/extensions/revolution.extension.slideanims.min.js"></script>
@@ -566,13 +569,13 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/imagesloaded.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/imagesloaded.min.js"></script>
     <script src="assets/js/masonry.min.js"></script>
     <script src="assets/js/jquery.filterizr.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/ekko-lightbox.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
