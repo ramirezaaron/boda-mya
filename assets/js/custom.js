@@ -1,15 +1,3 @@
-/* Global jQuery */
-
-/* Contents
-// ------------------------------------------------>
-     1. wow animation
-     2. Menu Mobile
-     3. Cart
-     4. Search
-     5. Owl Slider
-     6. Light Box
-     7. Fixed Header
-*/
 
 (function ($) {
     "use strict";
@@ -20,14 +8,6 @@
         $menu_yoga = $('header .yoga-menu'),
         $list = $("ul.nav-menu li a"),
         $list_firo = $("ul.firo-nav-menu li a"),
-        $menu_list_firo = $('ul.firo-nav-menu li.has-dropdown'),
-        $menu_list = $('header li.has-dropdown'),
-        $menu_ul = $('ul.sub-menu'),
-        $cart_model = $('.cart-model'),
-        $cart_link = $('#cart-link'),
-        $search_bar = $('#search_bar'),
-        $search_close = $('.close-search'),
-        $search_bot = $('#search-header'),
         $fixed_header = $('#fixed-header'),
         $fixed_header_dark = $('#fixed-header-dark'),
         $fixed_header_light = $('#fixed-header-light');
@@ -56,7 +36,6 @@
     /*==============================
     Loading
     ==============================*/
-
     $(window).on('load', function () {
         $('body').imagesLoaded(function () {
             $('.nile-preloader').fadeOut();
@@ -71,7 +50,6 @@
         mobile: false, // disable animation on mobiles 
     });
 
-
     /*-------------------  Firo Menu  --------------- */
     var $firo_menu = $('#firo-menu'),
         $open_firo_menu = $('.sidebar-menu-toggle'),
@@ -84,64 +62,8 @@
         $firo_menu.slideDown();
     });
 
-
-
-    /* ------------------  3. Cart ------------------ */
-    $cart_link.on("click", function (e) {
-        $cart_model.slideToggle("fast");
-    });
-
-    $(window).on("click", function (e) {
-        $cart_model.hide("fast");
-    });
-    $cart_link.on("click", function (e) {
-        event.stopPropagation();
-    });
-
-
-
-
-
-    /* ------------------  4. Search ------------------ */
-    $search_bot.on("click", function (e) {
-        $search_bar.slideToggle("fast");
-    });
-    $search_close.on("click", function (e) {
-        $search_bar.hide("fast");
-    });
-
-
-
-
     /* ------------------  5.Owl Slider ------------------ */
-    var service_slider = $(".service-slider");
     var team_slider = $(".team-slider");
-    var testimonial_slider = $(".testimonial-slider");
-    var testimonial_slider_2 = $(".testimonial-slider-2");
-    var client_slider = $(".nile-client-slider");
-    var blog_slider = $(".blog-slider-1");
-    var pages_slider = $(".pages-slider");
-
-    service_slider.owlCarousel({
-        slideSpeed: 1000,
-        autoPlay: true,
-        loop: true,
-        nav: true,
-        dots: true,
-        navText: ["<span class='arrow_carrot-left'></span>", "<span class='arrow_carrot-right'></span>"],
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            }
-        }
-    });
-
     team_slider.owlCarousel({
         slideSpeed: 1000,
         autoPlay: true,
@@ -160,125 +82,7 @@
                 items: 4
             }
         }
-    });
-
-    testimonial_slider.owlCarousel({
-        slideSpeed: 1000,
-        autoPlay: true,
-        loop: true,
-        nav: true,
-        dots: true,
-        navText: ["<span class='arrow_carrot-left'></span>", "<span class='arrow_carrot-right'></span>"],
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            }
-        }
-    });
-
-    testimonial_slider_2.owlCarousel({
-        slideSpeed: 1000,
-        autoPlay: true,
-        loop: true,
-        nav: true,
-        dots: true,
-        navText: ["<span class='arrow_carrot-left'></span>", "<span class='arrow_carrot-right'></span>"],
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    });
-
-    client_slider.owlCarousel({
-        slideSpeed: 1000,
-        autoPlay: true,
-        loop: true,
-        nav: false,
-        dots: false,
-        navText: ["<span class='arrow_carrot-left'></span>", "<span class='arrow_carrot-right'></span>"],
-        responsive: {
-            0: {
-                items: 2
-            },
-            600: {
-                items: 3
-            },
-            1000: {
-                items: 6
-            }
-        }
-    });
-
-    blog_slider.owlCarousel({
-        center: true,
-        items: 1,
-        loop: true,
-        nav: true,
-        dots: true,
-        navText: ["<span class='arrow_carrot-left'></span>", "<span class='arrow_carrot-right'></span>"],
-        margin: 10,
-        responsive: {
-            600: {
-                items: 2
-            }
-        }
-    });
-    pages_slider.owlCarousel({
-        center: true,
-        items: 1,
-        loop: true,
-        nav: true,
-        dots: true,
-        navText: ["<span class='arrow_carrot-left'></span>", "<span class='arrow_carrot-right'></span>"],
-        margin: 30,
-        responsive: {
-            600: {
-                items: 4
-            }
-        }
-    });
-
-
-    /* ------------------  Darmail Sidebar ------------------ */
-    var $sidebar_bottom = $(".sidebar-var-link"),
-        $body = $("body"),
-        $close_sidebar = $(".close-nile-sidebar"),
-        $sidebar_in = $(".nile-sidebar");
-    $sidebar_bottom.on("click", function (e) {
-        $sidebar_in.addClass("open");
-        $close_sidebar.addClass("open");
-        $body.css('overflow', 'hidden');
-    });
-
-    $close_sidebar.on("click", function (e) {
-        $sidebar_in.removeClass("open");
-        $(this).removeClass("open");
-        $body.css('overflow', 'auto');
-    });
-
-
-
-    /* ------------------  6. Light Box ------------------ */
-    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-    });
-
-
-
+    });    
 
     /* ------------------  7. Fixed Header ------------------ */
     $(window).on("scroll", function () {
@@ -292,53 +96,6 @@
             $fixed_header_light.removeClass('fixed-header-light');
         }
     });
-
-    $('a[href="#search"]').on("click", function (event) {
-        event.preventDefault();
-        $("#search").addClass("open");
-        $('#search > form > input[type="search"]').focus();
-    });
-
-    $("#search, #search button.close").on("click keyup", function (event) {
-        if (
-            event.target == this ||
-            event.target.className == "close" ||
-            event.keyCode == 27
-        ) {
-            $(this).removeClass("open");
-        }
-    });
-
-    $("form").submit(function (event) {
-        event.preventDefault();
-        return false;
-    });
-
-    jQuery("a#yt-preview").YouTubePopUp();
-
-
-    /* ------------------  Filtr Container ------------------ */
-    if ($(".filtr-container")[0]) {
-        var $container_in = $('.filtr-container');
-
-        if (typeof $('.filtr-container').filterizr === "function") {
-            $container_in.imagesLoaded(function () {
-                var filterizd = $('.filtr-container').filterizr({    //options object
-                });
-            });
-        }
-    }
-
-    if ($(".masonry-container")[0]) {
-        var $container = $('.masonry-container');
-        $container.imagesLoaded(function () {
-            $container.masonry({
-                columnWidth: '.item',
-                itemSelector: '.item'
-            });
-        });
-    }
-
 
     /*==============================================================
     wow animation - on scroll
@@ -354,8 +111,6 @@
         wow.init();
     });
 
-
-
     /*==============================================================
     // Animate the scroll to top
     ==============================================================*/
@@ -367,7 +122,6 @@
             $('.go-top').fadeOut(200);
         }
     });
-
 
     $('.go-top').on("click", function (e) {
         event.preventDefault();
@@ -391,6 +145,4 @@
             additionalMarginTop: 30
         });
     }
-
-
 }(jQuery));
