@@ -485,19 +485,19 @@
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label class="required">Nombre completo</label>
-                                <input type="text" id="fullName" placeholder="Nombre completo">
+                                <input type="text" id="fullName" placeholder="Nombre completo" maxlength="250">
                             </div>
                             <div class="form-group col-md-6">
                                 <label class="required">Teléfono</label>
-                                <input type="text" id="phone" placeholder="Móvil o fijo">
+                                <input type="text" id="phone" placeholder="Móvil o fijo" maxlength="50">
                             </div>
                             <div class="form-group col-md-6">
                                 <label>Correo electrónico</label>
-                                <input type="email" id="email" placeholder="algo@ejemplo.com">
+                                <input type="email" id="email" placeholder="algo@ejemplo.com" maxlength="100">
                             </div>
                             <div class="form-group col-md-6">
                                 <label class="required">Número de invitados</label>
-                                <input type="text" id="guestNumber" placeholder="1, 3, 5, etc.">
+                                <input type="number" min="1" max="10" id="guestNumber" placeholder="1, 3, 5, etc.">
                             </div>
                         </div>
                         <div class="form-group col-md-12">
@@ -513,12 +513,9 @@
                             <button id="btn-request-invitation" type="button" class="nile-bottom sm">Enviar</button>
                         </div>
                     </form>
-
                 </div>
             </div>
-
         </div>
-        
     </section>
     <!-- ============ END Best Friends ============ -->
 
