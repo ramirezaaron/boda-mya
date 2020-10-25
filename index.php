@@ -314,12 +314,22 @@
             <div class="wedding-date layout-1 light">
                 <h2 class="date">25/DIC/2020</h2>
                 <div class="dis"><br>Puerto Vallarta, Jalisco</div>
+
+                <h3>Misa</h3>
+                <div class="map-responsive">
+                    <iframe width="600" height="450" 
+                        frameborder="0" style="border:0" 
+                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJc-8U4oVFIYQRavH5sVosiwk&key=AIzaSyCT7IwmHcpkNahT3hvC4khbSG9C3QPHWFI" 
+                        allowfullscreen></iframe> 
+                </div> 
+
+                <h3>Recepción</h3>
                 <div class="map-responsive">
                     <iframe width="600" height="450" 
                         frameborder="0" style="border:0" 
                         src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJdWSa3XxPIYQR1GcQsBSMsxs&key=AIzaSyCT7IwmHcpkNahT3hvC4khbSG9C3QPHWFI"
                         allowfullscreen></iframe>
-                </div> 
+                </div>
             </div>
         </div>
         <div class="bottom-effect-ba-2"></div>
