@@ -54,8 +54,7 @@
                                     <li><a href="#">Inicio</a></li>
                                     <li><a href="#love_story">Historia</a></li>
                                     <li><a href="#event">Evento</a></li>
-                                    <li><a href="#gallery">Galería</a></li>
-                                    <li><a href="#friends">Momentos</a></li>
+                                    <li><a href="#confirm">Confirmación de asistencia</a></li>
                                 </ul>
 
                             </div>
@@ -402,8 +401,8 @@
     <!-- ============ END Our Gallery ============ -->
     <?php */ ?> 
 
-    <!-- ============ Best Friends ============ -->
-    <section id="invitation" class="padding-tb-100px section-ba-3">
+    <!-- ============ Confirmation ============ -->
+    <section id="confirm" class="padding-tb-100px section-ba-3">
          
         <div class="container">
             <div class="section-title layout-1">
