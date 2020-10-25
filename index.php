@@ -89,10 +89,10 @@
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-21-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','-23','0','0']" data-fontsize="['125','125','85','50']" data-letterspacing="['-8','-8','-8','-3']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":0,"split":"chars","splitdelay":0.1,"speed":300,"split_direction":"edgetomiddle","frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 125px; line-height: 22px; font-weight: 700; color: #ffffff; letter-spacing: -8px;font-family:Merienda;">Merce y Aarón </div>
+                        <div class="tp-caption tp-resizeme" id="slide-21-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','-23','0','0']" data-fontsize="['125','125','85','50']" data-letterspacing="['-8','-8','-8','-3']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":0,"split":"chars","splitdelay":0.1,"speed":300,"split_direction":"edgetomiddle","frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 125px; line-height: 22px; font-weight: 700; color: #ffffff; letter-spacing: -8px;font-family:Merienda;">Merce y Aarón </div>
 
                         <!-- LAYER NR. 2 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-21-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','7','7']" data-y="['top','middle','middle','middle']" data-voffset="['403','-142','-86','-56']" data-fontsize="['45','45','32','20']" data-letterspacing="['-3','-3','-3','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":0,"split":"chars","splitdelay":0.1,"speed":300,"split_direction":"middletoedge","frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 45px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: -3px;font-family:Merienda;">¡Nos casamos! </div>
+                        <div class="tp-caption tp-resizeme" id="slide-21-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','7','7']" data-y="['top','middle','middle','middle']" data-voffset="['403','-142','-86','-56']" data-fontsize="['45','45','32','20']" data-letterspacing="['-3','-3','-3','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":0,"split":"chars","splitdelay":0.1,"speed":300,"split_direction":"middletoedge","frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 45px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: -3px;font-family:Merienda;">¡Nos casamos! </div>
 
                         <!-- LAYER NR. 3 -->
 
@@ -127,16 +127,16 @@
                         <div class="line"><i class="fa fa-heart-o box-shadow"></i></div>
 
                         <div class="img_in">
-                            <img src="assets/img/bride-1.jpg" alt="">
+                            <img src="assets/img/mya/aaron.jpg" alt="Aarón Ramírez">
                         </div>
                         <div class="content">
-                            <h2 class="name">Merce Celedón</h2>
+                        <h1 class="name">Aarón Ramírez</h1>
                             <!--<div class="discription">puesto importante</div>-->
-                            <ul class="social-media">
+                            <!--<ul class="social-media">
                                 <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
                                 <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                            </ul>
+                            </ul>-->
                         </div>
                     </div>
                 </div>
@@ -146,13 +146,12 @@
                 <div class="col-lg-6">
                     <div class="bride-item layout-1 right">
                         <div class="img_in">
-                            <img src="assets/img/groom-1.jpg" alt="">
+                            <img src="assets/img/mya/merce.jpg" alt="Merce Celedón">
                         </div>
                         <div class="content">
-                            <h2 class="name">Aarón Ramírez</h2>
+                            <h1 class="name">Merce Celedón</h1>
                             <!--<div class="discription">puesto importante :D</div>-->
-                            <ul class="social-media">
-                                <!--<li><a class="facebook" href="#"><i class="fa fa-web"></i></a></li>-->
+                            <!--<ul class="social-media">
                                 <li>
                                     <a class="instagram" href="https://github.com/ramirezaaron">
                                         <i class="fa fa-github"></i>
@@ -163,7 +162,7 @@
                                     <i class="fa fa-twitter"></i>
                                     </a>
                                 </li>
-                            </ul>
+                            </ul>-->
                         </div>
                     </div>
                 </div>
@@ -182,90 +181,122 @@
     <section id="love_story" class="padding-tb-100px">
         <div class="container">
             <div class="section-title layout-1">
-                <div class="discription">¡Nos casamos, amikos!</div>
-                <h2 class="title">Nuestra historia bonita</h2>
+                <div class="discription">Algunos momentos</div>
+                <h2 class="title">Nuestra historia</h2>
                 <div class="affter"></div>
             </div>
 
             <ul class="time-line layout-1">
-
                 <!-- item -->
                 <li>
                     <div class="story-item layout-1">
-                        <div class="icon">
-                            <img src="assets/icons/timeline-1.svg" alt="">
+                    <div class="img_in">
+                        <img src="assets/img/mya/primera-juntos.png" alt="Primera fotito juntos">
+                    </div>
+                    <div class="content">
+                        <div class="date">SEP 2016</div>
+                        <h3 class="title">Primera foto juntos</h3>
+                        <div class="discription">
+                            Fue nuestra primera foto en la primera cita como novios dentro. Fue tomada  
+                            en una tarde refrescante en el zócalo de Puebla. 
+                            Ese día comimos churros y paseamos en zona histórica del centro.
                         </div>
-                        <div class="img_in">
-                            <img src="assets/img/timeline-1.png" alt="">
-                        </div>
-                        <div class="content">
-                            <div class="date">24 AGO 2016</div>
-                            <h3 class="title">Empezamos a ser novios</h3>
-                            <div class="discription">Lorem ipsum dolor sit, consectetuer adipiscing sed diam nonummy nibh euismod tincidunt, lorem quis bibendum</div>
                         </div>
                     </div>
                 </li>
                 <!-- // item -->
 
-
                 <!-- item -->
                 <li>
                     <div class="story-item layout-1">
-                        <div class="icon">
-                            <img src="assets/icons/timeline-2.svg" alt="">
-                        </div>
                         <div class="img_in">
-                            <img src="assets/img/timeline-2.png" alt="">
+                            <img src="assets/img/mya/primeras-flores.png" alt="Primer ramo de flores">
                         </div>
                         <div class="content">
-                            <div class="date">20 MAY 2010</div>
-                            <h3 class="title">Our First Dating</h3>
-                            <div class="discription">Lorem ipsum dolor sit, consectetuer adipiscing sed diam nonummy nibh euismod tincidunt, lorem quis bibendum</div>
+                            <div class="date">SEP 2016</div>
+                            <h3 class="title">Primer detalle</h3>
+                            <div class="discription">
+                                Aarón siempre ha buscado sorprender a Merce y lo demostró desde un principio, 
+                                regalándole un hermoso ramo de rosas rojas al cumplir un mes de novios, 
+                                siendo éste el primer ramo de flores en la vida de ella.
+                            </div>
                         </div>
                     </div>
                 </li>
                 <!-- // item -->
 
-
                 <!-- item -->
                 <li>
                     <div class="story-item layout-1">
-                        <div class="icon">
-                            <img src="assets/icons/timeline-3.svg" alt="">
-                        </div>
                         <div class="img_in">
-                            <img src="assets/img/timeline-3.png" alt="">
+                            <img src="assets/img/mya/primer-hotcakes.png" alt="Primeros hot cakes cocinados juntos">
                         </div>
                         <div class="content">
-                            <div class="date">20 MAY 2010</div>
-                            <h3 class="title">Our First Kiss</h3>
-                            <div class="discription">Lorem ipsum dolor sit, consectetuer adipiscing sed diam nonummy nibh euismod tincidunt, lorem quis bibendum</div>
+                            <div class="date">OCT 2016</div>
+                            <h3 class="title">Primeros hot cakes</h3>
+                            <div class="discription">
+                                Parte fundamental del noviazgo fue disfrutar del sazón de ambos 
+                                con la gastronomía de cada uno, buscando probar diferentes platillos hechos entre los dos.
+                            </div>
                         </div>
                     </div>
                 </li>
                 <!-- // item -->
 
-
                 <!-- item -->
                 <li>
                     <div class="story-item layout-1">
-                        <div class="icon">
-                            <img src="assets/icons/timeline-4.svg" alt="">
-                        </div>
                         <div class="img_in">
-                            <img src="assets/img/timeline-4.png" alt="">
+                            <img src="assets/img/mya/primer-sunset.png" alt="Hermoso atardecer en Vallarta">
                         </div>
                         <div class="content">
-                            <div class="date">20 MAY 2010</div>
-                            <h3 class="title">Now We Together</h3>
-                            <div class="discription">Lorem ipsum dolor sit, consectetuer adipiscing sed diam nonummy nibh euismod tincidunt, lorem quis bibendum</div>
+                            <div class="date">ABR 2017</div>
+                            <h3 class="title">Atardecer vallartense</h3>
+                            <div class="discription">
+                                Esta es la primer puesta de sol del viaje de reencuentro, 
+                                después del regreso de Merce a Vallarta.
+                            </div>
                         </div>
                     </div>
                 </li>
                 <!-- // item -->
 
+                <!-- item -->
+                <li>
+                    <div class="story-item layout-1">
+                        <div class="img_in">
+                            <img src="assets/img/mya/primer-navidad.png" alt="Primera Navidad juntos">
+                        </div>
+                        <div class="content">
+                            <div class="date">DIC 2018</div>
+                            <h3 class="title">Navidad juntos</h3>
+                            <div class="discription">
+                                Su relación fue muy especial desde un principio y limitada sólo por 
+                                la distancia física de por medio. Fue muy especial poder compartir 
+                                una fecha tan especial como Navidad.
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- // item -->                
+
+                <!-- item -->
+                <li>
+                    <div class="story-item layout-1">
+                        <div class="img_in">
+                            <img src="assets/img/mya/propuesta-matrimonio.jpg" alt="Entrega del anillo de compromiso">
+                        </div>
+                        <div class="content">
+                            <div class="date">OCT 2020</div>
+                            <h3 class="title">¡Ella dijo que sí!</h3>
+                            <div class="discription">
+                                Comienza la aventura y una nueva etapa para nosotros.
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- // item -->                
             </ul>
-
         </div>
     </section>
     <!-- ============ END LOVIE STORY ============ -->
@@ -297,7 +328,7 @@
     <!-- ============ END The Date ============ -->
 
 
-
+    <?php /* ?> 
     <!-- ============ Our Gallery ============ -->
     <section id="gallery" class="padding-tb-100px">
         <div class="container">
@@ -369,102 +400,7 @@
         </div>
     </section>
     <!-- ============ END Our Gallery ============ -->
-
-    <!-- ============ Best Friends ============ -->
-    <section id="friends" class="padding-tb-100px section-ba-3">
-         
-        <div class="container">
-            <div class="section-title layout-1">
-                <div class="discription">We’re Getting Married!</div>
-                <h2 class="title">Our Best Friends</h2>
-                <div class="affter"></div>
-            </div>
-
-            <div class="team-slider owl-carousel owl-theme">
-
-                <div class="team layout-1 sm-mb-35px">
-                    <div class="img-out">
-                        <img src="assets/img/team-2.jpg" alt="">
-                        <!--  Social -->
-                        <ul class="social-media">
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <!-- // Social -->
-                    </div>
-                    <h2 class="name">Salim Ali</h2>
-                    <div class="dis">Groomsmen</div>
-                </div>
-
-
-                <div class="team layout-1 sm-mb-35px">
-                    <div class="img-out">
-                        <img src="assets/img/team-1.jpg" alt="">
-                        <!--  Social -->
-                        <ul class="social-media">
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <!-- // Social -->
-                    </div>
-                    <h2 class="name">Somia Gad</h2>
-                    <div class="dis">Bridesmaid</div>
-                </div>
-
-
-                <div class="team layout-1 sm-mb-35px">
-                    <div class="img-out">
-                        <img src="assets/img/team-3.jpg" alt="">
-                        <!--  Social -->
-                        <ul class="social-media">
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <!-- // Social -->
-                    </div>
-                    <h2 class="name">Moh Elkheir</h2>
-                    <div class="dis">Groomsmen</div>
-                </div>
-
-
-                <div class="team layout-1 sm-mb-35px">
-                    <div class="img-out">
-                        <img src="assets/img/team-4.jpg" alt="">
-                        <!--  Social -->
-                        <ul class="social-media">
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <!-- // Social -->
-                    </div>
-                    <h2 class="name">Rayan Jmall</h2>
-                    <div class="dis">Bridesmaid</div>
-                </div>
-
-
-                <div class="team layout-1 sm-mb-35px">
-                    <div class="img-out">
-                        <img src="assets/img/team-2.jpg" alt="">
-                        <!--  Social -->
-                        <ul class="social-media">
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <!-- // Social -->
-                    </div>
-                    <h2 class="name">Salim Ali</h2>
-                    <div class="dis">Groomsmen</div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- ============ END Best Friends ============ -->
+    <?php */ ?> 
 
     <!-- ============ Best Friends ============ -->
     <section id="invitation" class="padding-tb-100px section-ba-3">
@@ -472,7 +408,7 @@
         <div class="container">
             <div class="section-title layout-1">
                 <div class="discription">Para atenderlos mejor</div>
-                <h2 class="title">Confirme su asistencia</h2>
+                <h2 class="title">Confirma tu asistencia</h2>
                 <div class="affter"></div>
             </div>
 
@@ -485,11 +421,11 @@
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label class="required">Nombre completo</label>
-                                <input type="text" id="fullName" placeholder="Nombre completo" maxlength="250">
+                                <input type="text" id="fullName" required placeholder="Nombre completo" maxlength="250">
                             </div>
                             <div class="form-group col-md-6">
                                 <label class="required">Teléfono</label>
-                                <input type="text" id="phone" placeholder="Móvil o fijo" maxlength="50">
+                                <input type="text" id="phone" required placeholder="Móvil o fijo" maxlength="50">
                             </div>
                             <div class="form-group col-md-6">
                                 <label>Correo electrónico</label>
@@ -497,7 +433,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <label class="required">Número de invitados</label>
-                                <input type="number" min="1" max="10" id="guestNumber" placeholder="1, 3, 5, etc.">
+                                <input type="number" min="1" max="10" required id="guestNumber" placeholder="1, 3, 5, etc.">
                             </div>
                         </div>
                         <div class="form-group col-md-12">
@@ -509,6 +445,7 @@
                                 rows="3" maxlength="500"></textarea>
                         </div>
                         <div class="text-center">
+                            <div id="error-validation">&nbsp;</div>
                             <!--<a href="#" class="nile-bottom sm">Enviar</a>-->
                             <button id="btn-request-invitation" type="button" class="nile-bottom sm">Enviar</button>
                         </div>
@@ -527,21 +464,28 @@
     </div>
     <!-- end preloader -->
     <footer class="layout-1 padding-tb-130px">
-        <div class="container">
+        <div id="footer-container" class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-about">
                         <div class="logo-footer">
                             <!--<a href="#"><img src="assets/img/logo-light.svg" alt=""></a>-->
                         </div>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in interdum neque, vitae hendrerit sem. Etiam at neque pellentesque, lobortis quam sed, facilisis metus.
+                        <div class="text">
+                            El amor es paciente, es bondadoso. El amor no es envidioso, ni 
+                            jactancioso ni orgulloso. No se comporta con rudeza, no es egoísta, 
+                            no se enoja fácilmente, no guarda rencor. <br /><br />
+
+                            1Cor 13, 4 &mdash; 5
                         </div>
 
                         <div class="clearfix"></div>
                         <div class="copyright">
-                            Hecho con 💕  por Aarón Ramírez y Merce Celedón.
+                            Hecho con <span style="font-size:2em;">💕</span>  por Aarón Ramírez y Merce Celedón.
+                            <?php /*?>
                             Usamos como base la plantilla de 
-                                <a href="http://nilethemes.com/html/zawag/home-4.html#love_story" rel="noreferrer" target="_blank">Zawag</a>
+                            <a href="http://nilethemes.com/html/zawag/home-4.html#love_story" rel="noreferrer" target="_blank">Zawag</a>
+                            <?php*/ ?>
                         </div>
                     </div>
                 </div>
