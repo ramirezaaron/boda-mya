@@ -196,9 +196,9 @@
                         <div class="date">SEP 2016</div>
                         <h3 class="title">Primera foto juntos</h3>
                         <div class="discription">
-                            Fue nuestra primera foto en la primera cita como novios dentro. Fue tomada  
+                            Nuestra primera foto de la primera cita como novios. Fue tomada  
                             en una tarde refrescante en el zócalo de Puebla. 
-                            Ese día comimos churros y paseamos en zona histórica del centro.
+                            Ese día comimos churros y paseamos por el Centro Histórico poblano.
                         </div>
                         </div>
                     </div>
@@ -234,8 +234,8 @@
                             <div class="date">OCT 2016</div>
                             <h3 class="title">Primeros hot cakes</h3>
                             <div class="discription">
-                                Parte fundamental del noviazgo fue disfrutar del sazón de ambos 
-                                con la gastronomía de cada uno, buscando probar diferentes platillos hechos entre los dos.
+                                Una parte fundamental de nosotros es disfrutar del sazón de ambos, 
+                                buscando probar diferentes platillos hechos entre los dos.
                             </div>
                         </div>
                     </div>
@@ -270,8 +270,8 @@
                             <div class="date">DIC 2018</div>
                             <h3 class="title">Navidad juntos</h3>
                             <div class="discription">
-                                Su relación fue muy especial desde un principio y limitada sólo por 
-                                la distancia física de por medio. Fue muy especial poder compartir 
+                                Nuestra relación es muy especial desde el principio y limitada sólo por 
+                                la distancia. Fue muy especial poder compartir 
                                 una fecha tan especial como Navidad.
                             </div>
                         </div>
