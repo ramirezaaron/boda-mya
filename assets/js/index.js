@@ -6,6 +6,15 @@ $(document).ready(function(){
         var guestNumber = $("#guestNumber").val();
         var comments = $("#comments").val();
 
+        if(fullName == "" || phone == "" || guestNumber == ""){
+            $("#error-validation")
+                .html("Complete los campos requeridos (*)")
+                .fadeIn()
+                .delay(2500)
+                .fadeOut();
+            return; 
+        }
+
         $.ajax({
             url: $("#form-guest").attr("action"), 
             method: "post", 
