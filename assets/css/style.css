@@ -2,7 +2,6 @@
   content: " * ";
   color: red;
 }
-
 .map-responsive{
   overflow:hidden;
   padding-bottom:56.25%;
@@ -16,7 +15,16 @@
   width:100%;
   position:absolute;
 }
-
+#error-validation{
+  color: #fa5a5a; 
+}
+#footer-container{
+  background-color: #5f021f;
+}
+@font-face {
+  font-family: helloHoney;
+  src: url(../fonts/hello-honey.otf);
+}
 header {
   position: relative;
   z-index: 9;
@@ -35,7 +43,7 @@ header.layout-1 .header-effect {
 header.layout-1 a.invitation-bot {
   display: block;
   text-align: center;
-  background-color: #fd1c56;
+  background-color: #5f021f;
   font-family: "Merienda", cursive;
   padding: 12px 30px;
   border-radius: 30px;
@@ -97,13 +105,6 @@ header ul.nav-menu {
   font-size: 13px;
   font-family: "Merienda", cursive;
   z-index: 3;
-  /*
-  & > li:nth-last-child(1) > ul.sub-menu,
-  & > li:nth-last-child(2) > ul.sub-menu {
-      left: auto;
-      right: 0
-  }
-  */
 }
 header ul.nav-menu span {
   color: #fff;
@@ -132,7 +133,6 @@ header ul.nav-menu > li > a {
   color: #000;
   z-index: 3;
   opacity: 1;
-  text-transform: capitalize;
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
@@ -394,23 +394,6 @@ header ul.nav-menu .mega-menu-out .mega-menu-list li a:hover:before {
   font-family: FontAwesome;
   margin-right: 5px;
 }
-header ul.white-link > li > a {
-  color: #fff;
-  opacity: .8;
-}
-header ul.white-link > li > a:hover {
-  color: #fff !important;
-  opacity: 1;
-}
-header ul.white-link > li.has-dropdown {
-  position: relative;
-}
-header ul.white-link > li.active > a:before {
-  color: #fff;
-}
-header ul.white-link > li.active > a {
-  color: #fff;
-}
 header ul.link-padding-tb-0px > li > a {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -466,26 +449,25 @@ a.go-top {
 a.go-top:hover {
   background-color: rgba(0, 0, 0, 0.6);
 }
-
 .section-title.layout-1 .discription {
   font-size: 15px;
   font-weight: 500;
   color: #434243;
 }
 .section-title.layout-1 h2.title {
-  font-size: 50px;
+  font-size: 6em;
   line-height: 49px;
-  letter-spacing: -4px;
-  font-weight: 700;
   line-height: 1.4;
-  color: #a93673;
+  color: #5f021f;
   font-family: "Merienda", cursive;
 }
 .section-title.layout-1 .affter {
-  background-image: url(../../assets/img/section-title-after.png);
-  width: 120px;
-  height: 32px;
+  background-image: url(../../assets/img/cat-divisor.png);
+  width: 80%;
+  height: 5.3em;
   margin: auto;
+  background-repeat: repeat-x;
+  opacity: 0.5;
 }
 .section-title.layout-1.light .discription {
   color: #fff;
@@ -595,9 +577,10 @@ a.go-top:hover {
   margin-right: -38px;
 }
 .nile-content.invitation {
-  background-image: url(../../assets/img/invitation-ba.png);
+  background-image: url(../../assets/img/mya/formulario-mya.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: 32em;
 }
 .nile-content.invitation .icon {
   width: 70px;
@@ -650,7 +633,7 @@ a.go-top:hover {
 }
 .nile-content.dark button.nile-bottom.sm {
   font-size: 15px;
-  background-color: #6e5f7e;
+  background-color: #5f021f;
   text-align: center;
   margin: 0px auto 0px auto;
   padding: 10px 40px;
@@ -680,13 +663,6 @@ a.go-top:hover {
 }
 .bride-item.layout-1.right .content {
   padding: 55px 0px;
-}
-.bride-item.layout-1.right h2.name {
-  font-family: "Merienda", cursive;
-  font-size: 22px;
-  color: #fff;
-  margin-bottom: 0px;
-  font-weight: 700;
 }
 .bride-item.layout-1.right .discription {
   font-size: 15px;
@@ -752,13 +728,6 @@ a.go-top:hover {
 .bride-item.layout-1.left .content {
   padding: 55px 0px;
 }
-.bride-item.layout-1.left h2.name {
-  font-family: "Merienda", cursive;
-  font-size: 22px;
-  color: #fff;
-  margin-bottom: 0px;
-  font-weight: 700;
-}
 .bride-item.layout-1.left .discription {
   font-size: 15px;
   color: #fff;
@@ -806,17 +775,23 @@ ul.time-line.layout-1 {
   list-style: none;
   position: relative;
 }
+/* Timeline vertical rule */
 ul.time-line.layout-1:before {
   content: " ";
   display: block;
   width: 1px;
-  height: 630px;
+  height: 92%;
   position: absolute;
   top: 40px;
   left: 0;
   right: 0;
   margin: auto;
   border-right: 1px solid #edcdc7;
+}
+@-moz-document url-prefix() { 
+  .ul.time-line.layout-1:before {
+    height: 1590px!important;
+  }
 }
 ul.time-line.layout-1:after {
   content: " ";
@@ -853,13 +828,11 @@ ul.time-line.layout-1 li .story-item .icon {
   top: 0;
 }
 ul.time-line.layout-1 li .story-item .date {
-  font-size: 12px;
   font-weight: 500;
   color: #fd1c56;
 }
 ul.time-line.layout-1 li .story-item h3.title {
   font-weight: 700;
-  font-size: 22px;
   color: #353535;
   margin-bottom: 12px;
 }
@@ -874,7 +847,6 @@ ul.time-line.layout-1 li .story-item .img_in img {
   border-radius: 50%;
 }
 ul.time-line.layout-1 li .story-item .discription {
-  font-size: 13px;
   color: #868485;
   font-weight: 400;
 }
@@ -910,13 +882,11 @@ ul.time-line.layout-1 li:nth-child(even) .story-item .icon {
   top: 0;
 }
 ul.time-line.layout-1 li:nth-child(even) .story-item .date {
-  font-size: 12px;
   font-weight: 500;
   color: #fd1c56;
 }
 ul.time-line.layout-1 li:nth-child(even) .story-item h3.title {
   font-weight: 700;
-  font-size: 22px;
   color: #353535;
   margin-bottom: 12px;
 }
@@ -931,7 +901,6 @@ ul.time-line.layout-1 li:nth-child(even) .story-item .img_in img {
   border-radius: 50%;
 }
 ul.time-line.layout-1 li:nth-child(even) .story-item .discription {
-  font-size: 13px;
   color: #868485;
   font-weight: 400;
 }
@@ -1026,11 +995,10 @@ footer.layout-1 .footer-about ul.social-media li a {
   margin-right: 6px;
 }
 footer.layout-1 .footer-about .copyright {
-  font-size: 13px;
+  font-size: 15px;
 }
 body {
   font-family: "Poppins";
-  font-size: 14px;
   line-height: 25px;
   background-color: #FAFAFA;
   position: relative;
@@ -1047,22 +1015,6 @@ img {
   -o-transition: all 0.25s;
   transition: all 0.25s;
 }
-a {
-  color: #000;
-}
-a:hover {
-  text-decoration: none;
-}
-a:focus {
-  outline: none;
-  text-decoration: none;
-}
-a:active,
-button:active,
-.btn {
-  outline: none;
-  text-decoration: none;
-}
 
 .btn:focus,
 .btn:active {
@@ -1075,44 +1027,18 @@ input {
   border: solid 1px #eee;
   outline: none;
 }
-.h1,h1 {
-  font-size: 28px;
-  line-height: 32px;
+h1{
+  font-size: 3.5em;
+  color: #fff;
 }
-.h2,h2 {
-  font-size: 23px;
-  line-height: 28px;
-}
-.h3,h3 {
-  font-size: 20px;
-  line-height: 27px;
-}
-.h4,h4 {
-  font-size: 17px;
-  line-height: 21px;
-}
-.h5,h5 {
-  font-size: 16px;
-  line-height: 20px;
-}
-.h6,h6 {
-  font-size: 13px;
-  line-height: 16px;
-}
-
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
-  font-family: "Poppins";
+  font-family: "helloHoney"!important;
   font-weight: 500;
 }
-
-.font-2 {
-  font-family: "Poppins";
+h3{
+  font-size: 4em;
+  font-weight: unset!important;
 }
-
-.font-3 {
-  font-family: "Merienda", cursive;
-}
-
 .section-ba-1 {
   background-color: #f1f9ff;
 }
@@ -1130,10 +1056,11 @@ input {
 }
 /*--- Global Background ---*/
 .background-main-color {
-  background-color: #a93673;
+  background-color: #5f021f;
+  opacity: 0.7;
 }
 .background-second-color {
-  background-color: #fd1c56;
+  background-color: #5f021f;
 }
 .background-third-color {
   background-color: #f68119;
@@ -1496,7 +1423,6 @@ section .section-title-center span.section-title-des:after {
   ul.time-line.layout-1 li .story-item h3.title,
   ul.time-line.layout-1 li:nth-child(even) .story-item h3.title {
     font-weight: 700;
-    font-size: 22px;
     color: #353535;
     margin-bottom: 12px;
   }
@@ -1537,11 +1463,6 @@ section .section-title-center span.section-title-des:after {
     padding: 0px 0px;
   }
   .bride-item.layout-1.right h2.name, .bride-item.layout-1.left h2.name {
-    font-family: "Merienda", cursive;
-    font-size: 22px;
-    color: #fff;
-    margin-bottom: 0px;
-    font-weight: 700;
   }
   .bride-item.layout-1.right .discription, .bride-item.layout-1.left .discription {
     font-size: 15px;
