@@ -417,7 +417,7 @@
         <div class="container">
             <div class="section-title layout-1">
                 <div class="discription">Para atenderlos mejor</div>
-                <h2 class="title">Confirma tu asistencia</h2>
+                <h2 class="title">Confirma tu asistencia antes del 21 de noviembre</h2>
                 <div class="affter"></div>
             </div>
 
