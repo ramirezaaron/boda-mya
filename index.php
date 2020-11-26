@@ -327,9 +327,6 @@
                                 allowfullscreen></iframe> 
                         </div> 
                     </div>
-                </div> 
-
-                <div class="row">
                     <div class="col-lg-6">
                         <h3>Recepción</h3>
                         <h4>Salón DecoFantasy</h4>
