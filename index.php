@@ -303,7 +303,7 @@
 
 
     <!-- ============ The Date ============ -->
-    <section id="event" class="padding-top-150px padding-bottom-200px section-ba-2">
+    <section id="event" class="padding-top-100px padding-bottom-100px section-ba-2">
         <div class="top-effect-ba-2"></div>
         <div class="container">
             <div class="section-title layout-1 light">
@@ -318,8 +318,8 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <h3>Misa</h3>
-                        <h4>Parroq. Ma. Auxiliadora</h4>
-                        <h4>5:00 pm en punto</h4>
+                        <div class="description">Parroq. Ma. Auxiliadora</div>
+                        <div class="description" style="padding-bottom: 20px">5:00 pm en punto</div>
                         <div class="map-responsive">
                             <iframe width="600" height="450" 
                                 frameborder="0" style="border:0" 
@@ -329,8 +329,8 @@
                     </div>
                     <div class="col-lg-6">
                         <h3>Recepción</h3>
-                        <h4>Salón DecoFantasy</h4>
-                        <h4>Desde 7:00 pm</h4>
+                        <div class="description">Salón DecoFantasy</div>
+                        <div class="description" style="padding-bottom: 20px">Desde 7:00 pm</div>
                         <div class="map-responsive">
                             <iframe width="600" height="450" 
                                 frameborder="0" style="border:0" 
@@ -483,7 +483,7 @@
     <!-- end preloader -->
     <footer class="layout-1 padding-tb-130px">
         <div id="footer-container" class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" style="padding-bottom: 40px">
                 <div class="col-lg-6">
                     <div class="footer-about">
                         <div class="logo-footer">
